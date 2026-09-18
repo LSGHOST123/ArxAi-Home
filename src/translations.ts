@@ -132,13 +132,13 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
       access: "Acessar Agora"
     },
     hero: {
-      active: "ERYX AI v1.0 - Protocolo Neural Ativo",
+      active: "ARX AI v1.0 - Protocolo Neural Ativo",
       title: "A INTELIGÊNCIA",
       titleAccent: "DEFINITIVA.",
       desc: "Ultra inteligente, rápida e equipada com Vision Mode e Web Search integrados.",
-      ctaPro: "Ativar ERYX PRO",
+      ctaPro: "Ativar ARX PRO",
       ctaTech: "Ver Tecnologia",
-      fastDisclaimer: "ERYX FAST: 100% Gratuito e Ilimitado para sempre.",
+      fastDisclaimer: "ARX FAST: 100% Gratuito e Ilimitado para sempre.",
       visionActive: "Vision Mode",
       visionTitle: "Análise Visual Ativa",
       searchActive: "Web Search",
@@ -195,7 +195,7 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
     comparison: {
       title: "BENCHMARK",
       titleAccent: "GLOBAL.",
-      descLine1: "Comparação técnica: ERYX PRO lidera em Qualidade e ERYX FAST lidera em Velocidade.",
+      descLine1: "Comparação técnica: ARX PRO lidera em Qualidade e ARX FAST lidera em Velocidade.",
       descLine2: "Ambas as variantes ocupam o topo absoluto mundial em hardware comum e servidores dedicados.",
       sortLabel: "Ordenar por:",
       sortRank: "Classificação Geral",
@@ -243,21 +243,21 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
     faq: {
       title: "Dúvidas",
       titleAccent: "Frequentes",
-      q1: "O ERYX FAST é realmente ilimitado?",
+      q1: "O ARX FAST é realmente ilimitado?",
       altText1: "Sim! O modelo FAST foi otimizado para ser gratuito e ilimitado para todos os usuários, garantindo acesso democrático e contínuo à inteligência artificial.",
-      q2: "Como funciona a assinatura do ERYX PRO?",
-      altText2: "O ERYX PRO é uma versão premium paga por assinatura mensal super acessível, com o valor fixado em R$ 19,90. Ao assinar, você tem uso 100% ilimitado, garantindo máxima performance e prioridade neural sem cotas de uso ou bloqueios diários.",
+      q2: "Como funciona a assinatura do ARX PRO?",
+      altText2: "O ARX PRO é uma versão premium paga por assinatura mensal super acessível, com o valor fixado em R$ 19,90. Ao assinar, você tem uso 100% ilimitado, garantindo máxima performance e prioridade neural sem cotas de uso ou bloqueios diários.",
       q3: "O Vision Mode aceita quais arquivos?",
       altText3: "Aceitamos imagens (JPG, PNG, WebP) e documentos PDF para análise visual, extração de texto e compreensão de contexto.",
       q4: "A busca na web é em tempo real?",
-      altText4: "Sim. O ERYX AI se conecta aos principais motores de busca para garantir que você tenha informações atualizadas até o presente momento.",
+      altText4: "Sim. O ARX AI se conecta aos principais motores de busca para garantir que você tenha informações atualizadas até o presente momento.",
     },
     footer: {
       desc: "A inteligência artificial que redefine os limites do conhecimento humano. Criada para ser rápida, inteligente e acessível.",
       creator: "CRIADOR: LUCAS SIMIONI",
       navTitle: "Navegação",
-      specsTitle: "ERYX AI v1.0",
-      copyright: "© 2026 ERYX AI. Todos os direitos reservados.",
+      specsTitle: "ARX AI v1.0",
+      copyright: "© 2026 ARX AI. Todos os direitos reservados.",
       security: "Protocolo de Segurança Neural Ativo"
     },
     modal: {
@@ -265,8 +265,8 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
       badgePro: "Pago & Ilimitado (R$ 19,90/mês)",
       descFast: "Modelo totalmente gratuito e sem limites, ideal para tarefas gerais de alta velocidade e análise visual ágil.",
       descPro: "O poder neural absoluto para tarefas de altíssima complexidade, raciocínio avançado e inferência de ponta via assinatura de R$ 19,90 p/ mês.",
-      btnFast: "Eryx Fast",
-      btnPro: "Eryx Pro",
+      btnFast: "Arx Fast",
+      btnPro: "Arx Pro",
       ggufBadge: "Mais Rápido & Leve",
       ggufTitle: "Versão GGUF",
       ggufDesc: "Altamente recomendada localmente. O formato GGUF é mais rápido e leve, garantindo máxima otimização com menor consumo de memória RAM/VRAM.",
@@ -275,10 +275,10 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
       footer: "Hugging Face Hub • Conexão Segura Ativa"
     },
     ctaSection: {
-      title: "A ERA ERYX",
+      title: "A ERA ARX",
       titleAccent: "COMEÇA AGORA.",
       desc: "Não fique para trás na maior revolução tecnológica da história. Ative seu protocolo neural hoje.",
-      button: "Ativar ERYX PRO Agora"
+      button: "Ativar ARX PRO Agora"
     }
   },
   en: {
@@ -290,13 +290,13 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
       access: "Access Now"
     },
     hero: {
-      active: "ERYX AI v1.0 - Active Neural Protocol",
+      active: "ARX AI v1.0 - Active Neural Protocol",
       title: "THE ULTIMATE",
       titleAccent: "INTELLIGENCE.",
       desc: "Ultra intelligent, fast, and equipped with built-in Vision Mode and Web Search.",
-      ctaPro: "Activate ERYX PRO",
+      ctaPro: "Activate ARX PRO",
       ctaTech: "See Technology",
-      fastDisclaimer: "ERYX FAST: 100% Free and Unlimited forever.",
+      fastDisclaimer: "ARX FAST: 100% Free and Unlimited forever.",
       visionActive: "Vision Mode",
       visionTitle: "Active Visual Analysis",
       searchActive: "Web Search",
@@ -353,7 +353,7 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
     comparison: {
       title: "GLOBAL",
       titleAccent: "BENCHMARK.",
-      descLine1: "Calibrated technical benchmarks: ERYX PRO leads in Quality and ERYX FAST leads in Speed.",
+      descLine1: "Calibrated technical benchmarks: ARX PRO leads in Quality and ARX FAST leads in Speed.",
       descLine2: "Both variants hold the undisputed top world rankings across consumer hardware and dedicated inference clusters.",
       sortLabel: "Sort by:",
       sortRank: "Global Ranking",
@@ -401,21 +401,21 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
     faq: {
       title: "Frequently Asked",
       titleAccent: "Questions",
-      q1: "Is ERYX FAST really unlimited?",
+      q1: "Is ARX FAST really unlimited?",
       altText1: "Yes! The FAST model has been optimized to be free and unlimited for all users, ensuring democratic and continuous access to artificial intelligence.",
-      q2: "How does the ERYX PRO subscription work?",
-      altText2: "ERYX PRO is an extremely affordable premium version with a monthly subscription set at R$ 19.90. By subscribing, you get 100% unlimited use, ensuring maximum performance and neural priority without usage caps or daily locks.",
+      q2: "How does the ARX PRO subscription work?",
+      altText2: "ARX PRO is an extremely affordable premium version with a monthly subscription set at R$ 19.90. By subscribing, you get 100% unlimited use, ensuring maximum performance and neural priority without usage caps or daily locks.",
       q3: "What files does Vision Mode accept?",
       altText3: "We accept images (JPG, PNG, WebP) and PDF documents for visual analysis, text extraction, and context understanding.",
       q4: "Is web search in real-time?",
-      altText4: "Yes. ERYX AI connects to major search engines to ensure you have the most up-to-date information up to the present moment.",
+      altText4: "Yes. ARX AI connects to major search engines to ensure you have the most up-to-date information up to the present moment.",
     },
     footer: {
       desc: "The artificial intelligence that redefines the limits of human knowledge. Built to be fast, intelligent, and affordable.",
       creator: "CREATOR: LUCAS SIMIONI",
       navTitle: "Navigation",
-      specsTitle: "ERYX AI v1.0",
-      copyright: "© 2026 ERYX AI. All rights reserved.",
+      specsTitle: "ARX AI v1.0",
+      copyright: "© 2026 ARX AI. All rights reserved.",
       security: "Active Neural Security Protocol"
     },
     modal: {
@@ -423,8 +423,8 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
       badgePro: "Paid & Unlimited (R$ 19.90/mo)",
       descFast: "Fully free and unlimited model, ideal for general high-speed tasks and agile visual analysis.",
       descPro: "The absolute neural power for highly complex tasks, advanced reasoning, and cutting-edge inference via subscription of R$ 19.90 per month.",
-      btnFast: "Eryx Fast",
-      btnPro: "Eryx Pro",
+      btnFast: "Arx Fast",
+      btnPro: "Arx Pro",
       ggufBadge: "Faster & Lighter",
       ggufTitle: "GGUF Version",
       ggufDesc: "Highly recommended locally. The GGUF format is faster and lighter, ensuring maximum optimization with less RAM/VRAM usage.",
@@ -433,10 +433,10 @@ export const translations: Record<'pt' | 'en', TranslationSchema> = {
       footer: "Hugging Face Hub • Safe Connection Active"
     },
     ctaSection: {
-      title: "THE ERYX ERA",
+      title: "THE ARX ERA",
       titleAccent: "STARTS NOW.",
       desc: "Don't get left behind in the greatest technological revolution in history. Activate your neural protocol today.",
-      button: "Activate ERYX PRO Now"
+      button: "Activate ARX PRO Now"
     }
   }
 };

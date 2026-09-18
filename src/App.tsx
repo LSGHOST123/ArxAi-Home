@@ -138,7 +138,7 @@ const Navbar: React.FC<NavbarProps> = ({
             <Brain className="text-black" size={22} />
           </div>
           <div className="text-xl font-black tracking-tighter uppercase">
-            ERYX <span className="text-accent">1.0</span>
+            ARX <span className="text-accent">1.0</span>
           </div>
         </motion.div>
         
@@ -559,7 +559,7 @@ const ModelsSection = ({ onOpenAccess, lang }: { onOpenAccess: (type: 'FAST' | '
   const m = translations[lang].modelsSec;
   const models = [
     {
-      name: "ERYX FAST",
+      name: "ARX FAST",
       price: m.freePrice,
       period: m.freePeriod,
       features: m.freeFeatures,
@@ -568,7 +568,7 @@ const ModelsSection = ({ onOpenAccess, lang }: { onOpenAccess: (type: 'FAST' | '
       badge: lang === 'pt' ? "Gratuito" : "Free"
     },
     {
-      name: "ERYX PRO",
+      name: "ARX PRO",
       price: m.proPrice,
       period: m.proPeriod,
       features: m.proFeatures,
@@ -655,7 +655,7 @@ const ComparisonSection = ({ lang }: { lang: 'pt' | 'en' }) => {
 
   const rawData = [
     { 
-      name: "ERYX 1.0 PRO", 
+      name: "ARX 1.0 PRO", 
       rank: "1º", 
       rankNum: 1, 
       intelligence: 68, 
@@ -668,7 +668,7 @@ const ComparisonSection = ({ lang }: { lang: 'pt' | 'en' }) => {
       tag: t.tagPro
     },
     { 
-      name: "ERYX 1.0 FAST", 
+      name: "ARX 1.0 FAST", 
       rank: "2º", 
       rankNum: 2, 
       intelligence: 59, 
@@ -1018,7 +1018,7 @@ const Footer = ({ lang }: { lang: 'pt' | 'en' }) => {
               <Brain className="text-black" size={18} />
             </div>
             <div className="text-xl font-black tracking-tighter uppercase">
-              ERYX <span className="text-accent">1.0</span>
+              ARX <span className="text-accent">1.0</span>
             </div>
           </div>
           <p className="text-text-dim text-sm leading-relaxed mb-6">
@@ -1077,14 +1077,14 @@ const AccessPanelModal: React.FC<AccessPanelModalProps> = ({ type, onClose, onTy
 
   const data = {
     FAST: {
-      name: "ERYX 1.0 FAST",
+      name: "ARX 1.0 FAST",
       badge: t.badgeFast,
       desc: t.descFast,
       safetensors: "https://huggingface.co/spaces/LSGHOST/Eryx-1.0-Fast",
       gguf: "https://huggingface.co/spaces/LSGHOST/Eryx-1.0-Fast-GGUF"
     },
     PRO: {
-      name: "ERYX 1.0 PRO",
+      name: "ARX 1.0 PRO",
       badge: t.badgePro,
       desc: t.descPro,
       safetensors: "https://huggingface.co/spaces/LSGHOST/Eryx-1.0-Pro",
@@ -1151,7 +1151,7 @@ const AccessPanelModal: React.FC<AccessPanelModalProps> = ({ type, onClose, onTy
               type === 'FAST' ? 'bg-accent text-black shadow-lg shadow-accent/10 font-bold' : 'text-white/60 hover:text-white font-bold'
             }`}
           >
-            Eryx Fast
+            Arx Fast
           </button>
           <button 
             type="button"
@@ -1160,7 +1160,7 @@ const AccessPanelModal: React.FC<AccessPanelModalProps> = ({ type, onClose, onTy
               type === 'PRO' ? 'bg-accent text-black shadow-lg shadow-accent/10 font-bold' : 'text-white/60 hover:text-white font-bold'
             }`}
           >
-            Eryx Pro
+            Arx Pro
           </button>
         </div>
 
@@ -1242,7 +1242,7 @@ const getBasename = () => {
 const Home = () => {
   const [accessModalType, setAccessModalType] = useState<'FAST' | 'PRO' | null>(null);
   const [lang, setLang] = useState<'pt' | 'en'>(() => {
-    const saved = localStorage.getItem('eryx-lang');
+    const saved = localStorage.getItem('arx-lang') || localStorage.getItem('eryx-lang');
     if (saved === 'pt' || saved === 'en') return saved;
     const browserLang = navigator.language.startsWith('en') ? 'en' : 'pt';
     return browserLang;
@@ -1250,7 +1250,7 @@ const Home = () => {
 
   const handleLanguageChange = (newLang: 'pt' | 'en') => {
     setLang(newLang);
-    localStorage.setItem('eryx-lang', newLang);
+    localStorage.setItem('arx-lang', newLang);
   };
 
   const cta = translations[lang].ctaSection;
