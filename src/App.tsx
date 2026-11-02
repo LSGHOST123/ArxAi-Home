@@ -1080,15 +1080,15 @@ const AccessPanelModal: React.FC<AccessPanelModalProps> = ({ type, onClose, onTy
       name: "ARX 1.0 FAST",
       badge: t.badgeFast,
       desc: t.descFast,
-      safetensors: "https://huggingface.co/spaces/LSGHOST/Eryx-1.0-Fast",
-      gguf: "https://huggingface.co/spaces/LSGHOST/Eryx-1.0-Fast-GGUF"
+      safetensors: "https://huggingface.co/spaces/LSGHOST/Arx-1.0-Fast",
+      gguf: "https://huggingface.co/spaces/LSGHOST/Arx-1.0-Fast-GGUF"
     },
     PRO: {
       name: "ARX 1.0 PRO",
       badge: t.badgePro,
       desc: t.descPro,
-      safetensors: "https://huggingface.co/spaces/LSGHOST/Eryx-1.0-Pro",
-      gguf: "https://huggingface.co/spaces/LSGHOST/Eryx-1.0-Pro-GGUF"
+      safetensors: "https://huggingface.co/spaces/LSGHOST/Arx-1.0-Pro",
+      gguf: "https://huggingface.co/spaces/LSGHOST/Arx-1.0-Pro-GGUF"
     }
   };
 
